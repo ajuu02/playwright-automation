@@ -1,0 +1,11 @@
+{
+  "guestBilling": {
+    "firstName": "Auto",
+    "lastName": "Order",
+    "country": "United States",
+    "city": "Austin",
+    "address1": "123 Main Street",
+    "zipPostalCode": "73301",
+    "phoneNumber": "5551234567"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "defaultUser": {
+    "role": "e2e",
+    "displayName": "Test User"
+  },
+  "registrationTemplate": {
+    "firstName": "Auto",
+    "lastName": "Tester",
+    "password": "Welcome@123"
+  }
+}

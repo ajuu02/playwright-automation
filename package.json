@@ -1,0 +1,21 @@
+{
+  "name": "playwright-framework-local",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke",
+    "test:e2e": "playwright test tests/e2e",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "lint:timeouts": "rg -n \"waitForTimeout\\(\" tests pages flows fixtures || true"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^24.0.0",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.0"
+  }
+}
